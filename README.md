@@ -10,6 +10,10 @@ mvn install:install-file -Dfile=/home/tomo/Desktop/spring/restfull/src/main/reso
 mvn clean package
 java -jar /home/tomo/spring/springRestOracle/target/restfull-0.0.1-SNAPSHOT.war
 Test:http://localhost:8080/billing/38763363358
+
+check db versions:
+http://localhost:8080/database/1
+http://localhost:8080/database/2
 ```
 
 ![result](https://user-images.githubusercontent.com/80390138/111033780-2ed6b480-8413-11eb-8bf8-379a95d43e94.png)
