@@ -6,9 +6,9 @@ Simple helloController is using jdbcTemplate and dataSource configured in applic
 ```
 git clone https://github.com/tzizanovic/springRestOracle.git
 cd springRestOracle/
+mvn install:install-file -Dfile=/home/tomo/Desktop/spring/restfull/src/main/resources/ojdbc6-11.2.0.4.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=19.3 -Dpackaging=jar
 mvn clean package
 java -jar /home/tomo/spring/springRestOracle/target/restfull-0.0.1-SNAPSHOT.war
-mvn install:install-file -Dfile=/home/tomo/Desktop/spring/restfull/src/main/resources/ojdbc6-11.2.0.4.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=19.3 -Dpackaging=jar
 Test:http://localhost:8080/billing/38763363358
 ```
 
