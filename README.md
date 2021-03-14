@@ -17,6 +17,7 @@ check db versions:
 http://localhost:8080/database/1
 http://localhost:8080/database/2
 
+check application.properties maximum-pool-size: 
 netstat -na |grep 192.168.123.30 |grep EST |wc -l
 netstat -na |grep 192.168.123.64 |grep EST |wc -l
 ```
