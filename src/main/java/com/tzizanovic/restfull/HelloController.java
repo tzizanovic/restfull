@@ -52,4 +52,16 @@ public class HelloController {
             return e.getMessage();
         }
     }
+    @RequestMapping(value = "/testinsert/firstname/{firstname}/lastname/{lastname}")
+    public String insertCustomer(@PathVariable(name = "firstname") String firstname, @PathVariable(name = "lastname") String lastname) {
+        try {
+            jdbcTemplate2.update(
+                    "INSERT INTO springtest (firstname, lastname, audit_create_date) VALUES (?, ?, sysdate)",
+                    firstname, lastname
+            );
+            return "OK";
+        } catch (Exception e) {
+            return e.getMessage();
+        }
+    }
 }
