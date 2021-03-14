@@ -21,4 +21,4 @@ check pool-size
 netstat -na |grep 192.168.123.30 |grep EST |wc -l
 netstat -na |grep 192.168.123.64 |grep EST |wc -l
 
-![result](https://user-images.githubusercontent.com/80390138/111069370-0dd29a00-84cd-11eb-9456-f7235d1e6eca.png)
+![result](https://user-images.githubusercontent.com/80390138/111069409-3e1a3880-84cd-11eb-80ad-f614bd9fd891.png)
