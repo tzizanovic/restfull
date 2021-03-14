@@ -1,4 +1,4 @@
-package com.aspose.test.restfull;
+package com.tzizanovic.restfull;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

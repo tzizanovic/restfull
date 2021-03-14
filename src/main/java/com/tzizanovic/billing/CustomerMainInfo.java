@@ -1,9 +1,9 @@
-package com.aspose.test.restfull;
+package com.tzizanovic.billing;
 
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
 
-public class Billing {
+public class CustomerMainInfo {
     String errorMessage = null;
     String tip;
     String accountNumber;
@@ -23,7 +23,7 @@ public class Billing {
     String isPrivate;
     String idCard;
 
-    public Billing() {
+    public CustomerMainInfo() {
     }
 
     public String getErrorMessage() {
@@ -170,11 +170,11 @@ public class Billing {
         this.idCard = idCard;
     }
 
-    public Billing(String errorMessage) {
+    public CustomerMainInfo(String errorMessage) {
         this.errorMessage = errorMessage;
     }
 
-    public Billing(String tip, String accountNumber, String contractNumber, String odnosId, String status, Timestamp setupDate, String ime, String prezime, String firma, String adr1, String adresa, int postanskiBroj, String mjesto, String adr4, String jmbg, String isPrivate, String idCard) {
+    public CustomerMainInfo(String tip, String accountNumber, String contractNumber, String odnosId, String status, Timestamp setupDate, String ime, String prezime, String firma, String adr1, String adresa, int postanskiBroj, String mjesto, String adr4, String jmbg, String isPrivate, String idCard) {
         this.tip = tip;
         this.accountNumber = accountNumber;
         this.contractNumber = contractNumber;

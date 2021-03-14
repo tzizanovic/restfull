@@ -1,4 +1,4 @@
-package com.aspose.test.restfull;
+package com.tzizanovic.restfull;
 
 import javax.sql.DataSource;
 
