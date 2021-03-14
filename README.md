@@ -5,7 +5,6 @@ Simple helloController is using jdbcTemplate and multiple Oracle dataSources con
 
 ```
 git clone https://github.com/tzizanovic/springRestOracle.git
-cd springRestOracle/
 mvn install:install-file -Dfile=/home/tomo/Desktop/spring/restfull/src/main/resources/ojdbc6-11.2.0.4.jar -DgroupId=com.oracle -DartifactId=ojdbc6 -Dversion=11.2.0.4 -Dpackaging=jar
 mvn clean package
 
